@@ -1,0 +1,1 @@
+SBS RECRUIT proposal LP for 株式会社山陰物流サービス. Single-page recruitment experience with images, motion-ready sections and recruitment assistant UI.
