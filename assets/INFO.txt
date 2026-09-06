@@ -1,0 +1,1 @@
+SBS RECRUIT visual poster is generated from provided company photos. Binary asset upload requires Git Data blob handling.
