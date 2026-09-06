@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>MYA RECRUIT｜なりたい自分になれる場所</title>
+  <meta name="description" content="美容室MYAの採用提案LP。なりたい自分になれる場所。技術と思いを大切にするサロン。">
+  <meta name="theme-color" content="#f5f1eb">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Noto+Sans+JP:wght@400;500;700;900&family=Playfair+Display:ital,wght@0,500;1,500&display=swap" rel="stylesheet">
+  <style>
+    :root{
+      --bg:#f5f1eb; --paper:#fbf9f5; --ink:#171717; --muted:#77716a;
+      --line:rgba(23,23,23,.14); --accent:#8d4f3b; --accent-soft:#e7d5cb;
+      --serif:"Playfair Display",serif; --sans:"Noto Sans JP","DM Sans",sans-serif;
+      --pad:clamp(20px,4vw,64px); --max:1320px;
+    }
+    *{box-sizing:border-box} html{scroll-behavior:smooth} body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--sans);line-height:1.8} img{display:block;width:100%;height:100%;object-fit:cover} a{color:inherit;text-decoration:none} button{font:inherit}
+    .wrap{width:min(var(--max),calc(100% - var(--pad)*2));margin:auto}.eyebrow{font-family:var(--serif);font-style:italic;font-size:14px;letter-spacing:.12em}.num{font-family:"DM Sans",sans-serif}
+    .header{position:fixed;z-index:20;top:0;left:0;right:0;padding:18px 0;mix-blend-mode:multiply}.header__in{display:flex;align-items:center;justify-content:space-between}.brand{font-size:17px;font-weight:900;letter-spacing:.14em}.brand small{display:block;font:italic 11px var(--serif);font-weight:500;letter-spacing:.18em}.nav{display:flex;gap:26px;align-items:center;font-size:12px;letter-spacing:.07em}.nav a{opacity:.72;transition:.25s}.nav a:hover{opacity:1}.menu-btn{display:none;border:0;background:none;width:42px;height:42px;padding:8px}.menu-btn span{display:block;height:1px;background:var(--ink);margin:7px 0}
+    .hero{min-height:100svh;position:relative;display:grid;align-items:end;overflow:hidden;padding:120px 0 70px}.hero__img{position:absolute;inset:0;z-index:0}.hero__img img{filter:saturate(.72) contrast(.94);transform:scale(1.03)}.hero:after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(15,15,15,.58),rgba(15,15,15,.15) 58%,rgba(15,15,15,.08));z-index:1}.hero__content{position:relative;z-index:2;color:#fff;max-width:1080px}.hero__kicker{display:flex;gap:12px;align-items:center;font-size:12px;letter-spacing:.16em;text-transform:uppercase;margin-bottom:20px}.hero__kicker i{width:44px;height:1px;background:#fff;display:inline-block}.hero h1{font-size:clamp(44px,8vw,118px);line-height:1.02;letter-spacing:-.055em;margin:0 0 28px;font-weight:900}.hero h1 span{display:block}.hero h1 .jp{font-size:.54em;letter-spacing:-.02em;margin-top:12px}.hero__sub{font-size:clamp(15px,1.8vw,21px);max-width:560px}.hero__bottom{margin-top:56px;display:flex;gap:18px;flex-wrap:wrap}.btn{display:inline-flex;align-items:center;gap:14px;padding:15px 22px;border:1px solid currentColor;font-size:13px;letter-spacing:.08em;transition:.3s}.btn:hover{background:#fff;color:var(--ink)}.hero .btn.primary{background:#fff;color:var(--ink);border-color:#fff}.hero .btn.primary:hover{background:transparent;color:#fff}.scroll{position:absolute;z-index:2;right:var(--pad);bottom:72px;color:#fff;font-size:10px;letter-spacing:.18em;writing-mode:vertical-rl;display:flex;align-items:center;gap:12px}.scroll:before{content:"";width:1px;height:70px;background:#fff;display:block}
+    section{padding:clamp(90px,12vw,170px) 0}.intro{background:var(--paper)}.intro__grid{display:grid;grid-template-columns:1fr 1.35fr;gap:clamp(50px,8vw,130px);align-items:start}.section-label{display:flex;gap:14px;align-items:center;color:var(--muted);font-size:11px;letter-spacing:.16em;text-transform:uppercase}.section-label:before{content:"";width:42px;height:1px;background:var(--accent)}.intro h2{font-size:clamp(32px,5vw,68px);line-height:1.12;letter-spacing:-.04em;margin:18px 0 25px}.intro__lead{font-size:clamp(20px,2.5vw,31px);line-height:1.65;font-weight:500}.intro__copy{color:#555;max-width:650px}.intro__quote{font-family:var(--serif);font-style:italic;font-size:clamp(25px,3vw,40px);line-height:1.4;margin-top:45px}
+    .features{background:var(--bg)}.features__top{display:flex;justify-content:space-between;gap:30px;align-items:end;margin-bottom:60px}.features h2,.recruit h2,.culture h2,.flow h2{font-size:clamp(36px,5vw,70px);line-height:1.08;letter-spacing:-.05em;margin:18px 0 0}.feature-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.feature{background:var(--paper);border:1px solid var(--line);min-height:520px;display:flex;flex-direction:column;justify-content:space-between;padding:0 0 28px;overflow:hidden}.feature__img{height:270px;position:relative}.feature__num{position:absolute;top:16px;left:16px;background:var(--paper);padding:4px 10px;font-size:11px;letter-spacing:.1em}.feature__body{padding:28px 28px 0}.feature h3{font-size:24px;line-height:1.35;margin:8px 0 14px}.feature p{color:#666;font-size:14px;margin:0}.feature__link{padding:0 28px;display:flex;justify-content:space-between;align-items:center;font-size:12px;letter-spacing:.08em;margin-top:22px}.feature__link b{font-size:22px;font-weight:400}
+    .split{padding:0;display:grid;grid-template-columns:1fr 1fr;background:#1c1c1a;color:#fff}.split__image{min-height:740px}.split__content{padding:clamp(70px,9vw,120px) clamp(30px,7vw,100px);display:flex;flex-direction:column;justify-content:center}.split__content .section-label{color:#bdb7b0}.split__content .section-label:before{background:#bdb7b0}.split h2{font-size:clamp(34px,5vw,68px);line-height:1.1;letter-spacing:-.05em;margin:20px 0 30px}.split p{color:#cbc7c2;max-width:550px}.checks{margin:35px 0 0;padding:0;list-style:none;display:grid;gap:12px}.checks li{border-top:1px solid rgba(255,255,255,.16);padding:16px 0;display:flex;gap:18px;align-items:center;font-size:14px}.checks b{font:italic 20px var(--serif);font-weight:500;color:#fff}
+    .recruit{background:var(--paper)}.salary{display:grid;grid-template-columns:1.1fr 1fr;gap:22px;margin-top:70px}.salary__card{border-top:1px solid var(--ink);padding-top:24px}.salary__card h3{font-size:18px;margin:0 0 24px}.salary__row{display:flex;justify-content:space-between;gap:20px;border-bottom:1px solid var(--line);padding:18px 0;font-size:14px}.salary__row strong{font-size:18px;white-space:nowrap}.note{font-size:12px;color:var(--muted);margin-top:16px}.benefits{display:grid;grid-template-columns:repeat(4,1fr);gap:0;border-top:1px solid var(--line);margin-top:70px}.benefit{padding:24px 18px;border-right:1px solid var(--line);min-height:150px}.benefit:first-child{border-left:1px solid var(--line)}.benefit span{font:italic 13px var(--serif);color:var(--accent)}.benefit h4{margin:10px 0 5px;font-size:16px}.benefit p{margin:0;color:#666;font-size:12px}
+    .culture{background:#e9ddd5}.culture__grid{display:grid;grid-template-columns:1fr 1fr;gap:clamp(45px,8vw,120px);align-items:center}.culture__copy p{color:#5a514b}.culture__visual{position:relative;min-height:600px}.culture__visual .main{height:600px}.culture__visual .small{position:absolute;right:-3vw;bottom:-45px;width:220px;height:180px;border:10px solid var(--bg)}.culture__stat{position:absolute;left:-28px;top:38px;background:var(--paper);padding:22px 28px}.culture__stat strong{display:block;font:500 56px var(--serif);line-height:1}.culture__stat span{font-size:11px;letter-spacing:.11em;color:var(--muted)}
+    .flow{background:var(--bg)}.steps{margin-top:65px;border-top:1px solid var(--ink)}.step{display:grid;grid-template-columns:100px 1fr 1.4fr;gap:30px;border-bottom:1px solid var(--line);padding:28px 0;align-items:start}.step__no{font:italic 22px var(--serif)}.step h3{margin:0;font-size:18px}.step p{margin:0;color:#666;font-size:14px}.cta{background:#1c1c1a;color:#fff;padding:clamp(75px,10vw,130px) 0}.cta__in{display:flex;justify-content:space-between;gap:50px;align-items:end}.cta h2{font-size:clamp(42px,7vw,100px);line-height:.95;letter-spacing:-.06em;margin:16px 0 20px}.cta p{color:#bdb7b0}.cta__links{display:flex;gap:12px;flex-wrap:wrap}.cta .btn{min-width:180px;justify-content:center}.cta .btn.primary{background:#fff;color:#1c1c1a;border-color:#fff}
+    footer{padding:28px 0 40px;background:#1c1c1a;color:#aaa;border-top:1px solid rgba(255,255,255,.1);font-size:11px}footer .wrap{display:flex;justify-content:space-between;gap:20px}footer strong{color:#fff;letter-spacing:.14em}
+    .reveal{opacity:0;transform:translateY(30px);transition:opacity .8s ease,transform .8s ease}.reveal.is-visible{opacity:1;transform:none}
+    @media(max-width:900px){.nav{display:none}.menu-btn{display:block}.hero{padding-bottom:58px}.scroll{display:none}.intro__grid,.culture__grid,.salary{grid-template-columns:1fr}.feature-grid{grid-template-columns:1fr}.feature{min-height:auto}.feature__img{height:240px}.split{grid-template-columns:1fr}.split__image{min-height:55vh}.benefits{grid-template-columns:1fr 1fr}.benefit:nth-child(2){border-right:0}.benefit:nth-child(n+3){border-top:1px solid var(--line)}.step{grid-template-columns:55px 1fr;gap:18px}.step p{grid-column:2}.cta__in{display:block}.cta__links{margin-top:35px}.culture__visual{min-height:520px}.culture__visual .main{height:520px}.culture__visual .small{right:0}}
+    @media(max-width:560px){:root{--pad:20px}.hero h1{font-size:48px}.hero h1 .jp{font-size:20px}.hero__bottom .btn{width:100%;justify-content:center}.benefits{grid-template-columns:1fr}.benefit,.benefit:first-child{border-left:1px solid var(--line);border-right:1px solid var(--line)}.benefit+ .benefit{border-top:0}.culture__visual .small{width:145px;height:125px;border-width:7px}.culture__stat{left:0;top:18px;padding:16px 20px}.culture__stat strong{font-size:44px}footer .wrap{display:block}footer .wrap > * + *{margin-top:8px}}
+  </style>
+</head>
+<body>
+  <header class="header">
+    <div class="wrap header__in">
+      <a href="#top" class="brand">M・Y・A<small>RECRUIT 2026</small></a>
+      <nav class="nav" aria-label="ページ内ナビゲーション">
+        <a href="#message">MESSAGE</a><a href="#features">WHY MYA</a><a href="#recruit">RECRUIT</a><a href="#culture">CULTURE</a><a href="#flow">FLOW</a>
+      </nav>
+      <button class="menu-btn" aria-label="メニュー"><span></span><span></span></button>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="hero__img"><img src="https://placehold.co/800x600/222222/ffffff?text=MYA+Salon" alt="MYA Salon" fetchpriority="high"></div>
+      <div class="wrap hero__content reveal">
+        <div class="hero__kicker"><i></i> BEAUTY / CAREER / LIFE</div>
+        <h1>なりたい自分に、<span>なれる場所。</span><span class="jp">技術と思いを大切にするサロン。</span></h1>
+        <p class="hero__sub">美容師としての成長も、家族との時間も、これからのキャリアも。MYAは、あなたの「こうなりたい」に寄り添います。</p>
+        <div class="hero__bottom"><a class="btn primary" href="#recruit">募集要項を見る <span>→</span></a><a class="btn" href="#flow">サロン見学・応募 <span>→</span></a></div>
+      </div>
+      <div class="scroll">SCROLL</div>
+    </section>
+
+    <section class="intro" id="message">
+      <div class="wrap intro__grid">
+        <div class="reveal"><div class="section-label">01 / MESSAGE</div><h2>美容師人生は、<br>ひとつじゃない。</h2></div>
+        <div class="reveal">
+          <p class="intro__lead">技術を磨く。誰かを喜ばせる。仲間と成長する。家族との時間を守る。</p>
+          <p class="intro__copy">MYAが大切にしているのは、スタッフ一人ひとりが自分の技術を習得し、増やし、深めていけること。そして、その先に「自分らしい働き方」を選べることです。</p>
+          <p class="intro__copy">公式採用情報でも、チームワーク・教育・夢を叶える環境づくりを大切にし、働くスタッフとその家族が幸せに感じられる環境を目指しています。</p>
+          <div class="intro__quote">“なりたい自分”は、入社してからでも変えられる。</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="features" id="features">
+      <div class="wrap">
+        <div class="features__top reveal"><div><div class="section-label">02 / WHY MYA</div><h2>MYAで、伸ばせるもの。</h2></div><p style="max-width:360px;color:#6b655f;font-size:13px;margin:0">「技術」「働き方」「可能性」。今の自分だけでなく、これからの自分まで考えられる環境を。</p></div>
+        <div class="feature-grid">
+          <article class="feature reveal"><div class="feature__img"><img src="https://placehold.co/800x600/222222/ffffff?text=MYA+Salon" alt="教育・レッスンのイメージ"><span class="feature__num">01 / EDUCATION</span></div><div class="feature__body"><h3>成長できる、教育体制。</h3><p>最短1年10ヶ月でスタイリストデビュー可能な教育カリキュラム。営業後だけに頼らず、日々の実践と練習を積み重ねます。</p></div><div class="feature__link"><span>EARLY DEBUT / CONTEST / TRAINING</span><b>↗</b></div></article>
+          <article class="feature reveal"><div class="feature__img"><img src="https://placehold.co/800x600/222222/ffffff?text=MYA+Salon" alt="サロンワークのイメージ"><span class="feature__num">02 / WORK STYLE</span></div><div class="feature__body"><h3>長く働ける、安心感。</h3><p>完全週休2日制、社会保険完備。産休・育休・介護休暇など、ライフステージの変化にも寄り添います。</p></div><div class="feature__link"><span>WEEKLY 2 DAYS OFF / SOCIAL INSURANCE</span><b>↗</b></div></article>
+          <article class="feature reveal"><div class="feature__img"><img src="https://placehold.co/800x600/222222/ffffff?text=MYA+Salon" alt="トータルビューティーのイメージ"><span class="feature__num">03 / POSSIBILITY</span></div><div class="feature__body"><h3>仕事の可能性を、広げる。</h3><p>美容師だけでなく、アイリストなどにも挑戦可能。新しい技術との出会いが、キャリアの選択肢を増やします。</p></div><div class="feature__link"><span>HAIR / EYE / BEAUTY</span><b>↗</b></div></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="split">
+      <div class="split__image"><img src="https://placehold.co/800x600/222222/ffffff?text=MYA+Salon" alt="MYA Salon"></div>
+      <div class="split__content reveal">
+        <div class="section-label">03 / EDUCATION</div><h2>最短1年10ヶ月。<br>デビューまでを、<br>ちゃんと支える。</h2>
+        <p>MYA公式の教育カリキュラムでは、最短1年10ヶ月でのスタイリストデビューを可能にしています。技術だけでなく、人として成長し、自立できる人材を育てることも教育の一部です。</p>
+        <ul class="checks"><li><b>01</b> 段階的に身につけるカリキュラム</li><li><b>02</b> コンテスト・撮影会などクリエイティブの機会</li><li><b>03</b> 先輩と一緒に学べるチームワーク</li></ul>
+      </div>
+    </section>
+
+    <section class="recruit" id="recruit">
+      <div class="wrap">
+        <div class="reveal"><div class="section-label">04 / RECRUIT</div><h2>待遇も、キャリアも、<br>オープンに。</h2></div>
+        <div class="salary">
+          <div class="salary__card reveal"><h3>新卒採用</h3><div class="salary__row"><span>美容師アシスタント</span><strong>¥225,000〜</strong></div><p class="note">＋ 店販手当・交通費</p></div>
+          <div class="salary__card reveal"><h3>中途採用</h3><div class="salary__row"><span>スタイリスト</span><strong>¥300,000〜</strong></div><div class="salary__row"><span>アシスタント</span><strong>¥225,000〜</strong></div><div class="salary__row"><span>アイリスト</span><strong>¥230,000〜500,000</strong></div><p class="note">すべて＋能力給 / 前職給与保証あり</p></div>
+        </div>
+        <div class="benefits reveal">
+          <div class="benefit"><span>01</span><h4>完全週休2日制</h4><p>年間休日108日。希望休取得可能（土日可）。</p></div>
+          <div class="benefit"><span>02</span><h4>社会保険完備</h4><p>健康・厚生年金・雇用・労災。</p></div>
+          <div class="benefit"><span>03</span><h4>各種手当</h4><p>店販・役職など、頑張りを支える制度。</p></div>
+          <div class="benefit"><span>04</span><h4>休暇・研修支援</h4><p>有給、育児、産前産後、介護休暇など。</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="culture" id="culture">
+      <div class="wrap culture__grid">
+        <div class="culture__visual reveal"><div class="main"><img src="https://placehold.co/800x600/222222/ffffff?text=MYA+Salon" alt="MYA Salon"></div><div class="small"><img src="https://placehold.co/800x600/222222/ffffff?text=MYA+Salon" alt="MYA Salon detail"></div><div class="culture__stat"><strong>55+</strong><span>STAFF / OFFICIAL INFO</span></div></div>
+        <div class="culture__copy reveal"><div class="section-label">05 / CULTURE</div><h2>美容だけじゃない。<br>人生をつくる場所。</h2><p>MYAは、家族との時間を大切にできる美容室づくりを進めています。健康診断、時短勤務、産休育休制度、復職支援など、働き続けるための選択肢も用意。</p><p>さらに、ヘア・アイ・ネイル・ヘッドスパ・ブライダルなど、事業領域を広げることで「自分の技術を増やす」可能性も広げています。</p><p style="font-weight:700">一つの肩書きに、自分を合わせなくていい。</p></div>
+      </div>
+    </section>
+
+    <section class="flow" id="flow">
+      <div class="wrap">
+        <div class="reveal"><div class="section-label">06 / FLOW</div><h2>まずは、見に来てください。</h2></div>
+        <div class="steps">
+          <div class="step reveal"><div class="step__no">01</div><h3>会社説明・問い合わせ</h3><p>学校での就職ガイダンスや会社説明会のほか、お問い合わせでも気軽に相談できます。</p></div>
+          <div class="step reveal"><div class="step__no">02</div><h3>サロン見学</h3><p>希望のサロン、複数サロンの見学が可能。実際の雰囲気を自分の目で確かめてください。</p></div>
+          <div class="step reveal"><div class="step__no">03</div><h3>面接</h3><p>サロンまたは本社にて面接。働き方やキャリアについても相談できます。</p></div>
+          <div class="step reveal"><div class="step__no">04</div><h3>内定</h3><p>面接後、2週間以内に合否のお知らせ。</p></div>
+          <div class="step reveal"><div class="step__no">05</div><h3>入社</h3><p>MYAの一員として、自分らしい美容師人生をスタート。</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta">
+      <div class="wrap cta__in">
+        <div class="reveal"><div class="eyebrow">YOUR NEXT CHAPTER</div><h2>なりたい自分へ、<br>一歩ずつ。</h2><p>MYAが少しでも気になったら、まずはサロン見学から。</p></div>
+        <div class="cta__links reveal"><a class="btn primary" href="https://m-y-a.jp/recruit/" target="_blank" rel="noopener">公式採用情報 <span>↗</span></a><a class="btn" href="https://m-y-a.jp/" target="_blank" rel="noopener">MYA公式サイト <span>↗</span></a></div>
+      </div>
+    </section>
+  </main>
+  <footer><div class="wrap"><strong>M・Y・A RECRUIT</strong><span>Proposal LP / Based on official recruitment information</span></div></footer>
+
+  <script>
+    const targets = document.querySelectorAll('.reveal');
+    const io = new IntersectionObserver(entries => {
+      entries.forEach(e => { if (e.isIntersecting) { e.target.classList.add('is-visible'); io.unobserve(e.target); } });
+    }, {threshold:.12});
+    targets.forEach(el => io.observe(el));
+  </script>
+</body>
+</html>
